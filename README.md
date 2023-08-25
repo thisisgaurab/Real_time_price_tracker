@@ -25,4 +25,4 @@ Real-Time Stock Price Tracker is a web application that allows users to track re
 - Thanks to yahoo finance for providing real-time stock price data. And, thanks to NeuralNine for such awesome tutorial video.
 
 ###### Contact
-For questions or feedback, please contact me. My email address is  @gmail.com. Or, you can connect with me in Linkedin: https://www.linkedin.com/in/gaurab-upreti-5903b5230/.
+For questions or feedback, please contact me. My email address is iamgaurabupreti@gmail.com. Or, you can connect with me in Linkedin: https://www.linkedin.com/in/gaurab-upreti-5903b5230/.
