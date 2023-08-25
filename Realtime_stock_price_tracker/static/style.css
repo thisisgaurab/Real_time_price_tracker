@@ -1,0 +1,127 @@
+/* Reset some default styles to ensure consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define a background color for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the stock boxes */
+.stock-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the ticker name inside the stock box */
+.stock-box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style the price and percent change inside the stock box */
+.stock-box p {
+    font-size: 16px;
+}
+
+/* Style the Remove button */
+.remove-btn {
+    background-color: #ff5733;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Add some margin between stock boxes */
+.stock-box + .stock-box {
+    margin-top: 20px;
+}
+
+/* Define colors for price and percent change */
+.dark-red {
+    color: #cc0000;
+}
+
+.red {
+    color: #ff5733;
+}
+
+.gray {
+    color: #888888;
+}
+
+.green {
+    color: #22bb33;
+}
+
+.dark-green {
+    color: #00aa00;
+}
+
+/* Define flash animation for stock boxes */
+.red-flash {
+    animation: flash-red 1s ease-in-out;
+}
+
+.green-flash {
+    animation: flash-green 1s ease-in-out;
+}
+
+.gray-flash {
+    animation: flash-gray 1s ease-in-out;
+}
+
+@keyframes flash-red {
+    0% {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #ff5733;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@keyframes flash-green {
+    0% {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #22bb33;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@keyframes flash-gray {
+    0% {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #888888;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
